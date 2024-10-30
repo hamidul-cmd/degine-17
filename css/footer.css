@@ -1,0 +1,22 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-block: 20px;
+    background-color: var(--footer-color);
+}
+footer p {
+    color: white;
+    font-size: var(0.9rem);
+}
+.links {
+    display: flex;
+    gap: 15px;
+}
+.links li a {
+    transition: all 0.5s ease;
+}
+.links li a:hover {
+    color: #e87a3a;
+}

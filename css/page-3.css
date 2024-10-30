@@ -1,0 +1,83 @@
+.page-3 {
+    background: var(--page3-backgroundcolor);
+    padding: 60px 20px;
+}
+
+.page-3 .container {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.page-3 .container h2 {
+    font-size: var(--fs-h2);
+    font-weight: 500;
+    color: var(--sec-h2-color);
+    margin-block: 20px 10px;
+    animation: fedein 0.5s;
+}
+
+.page-3 .container p {
+    font-size: var(--fs-p);
+    color: var(--p-color);
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.page-3 .container .grid {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.page-3 .container .grid .cird {
+    width: 250px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transform: translatey(1);
+    transition: transform 0.5s ease;
+}
+
+.page-3 .container .grid .cird:hover {
+    transform: translatey(-0.5em);
+}
+
+.page-3 .container .grid .cird h3 {
+    font-size: var(--fs-h3);
+    color: var(--sec-h3-color);
+    font-weight: 500;
+    margin: 15px 0;
+
+}
+
+.page-3 .container .grid .cird p {
+    font-size: 0.9rem;
+    color: var(--sec-p-color);
+    padding: 0px 15px;
+}
+
+.page-3 .container button {
+    background-color: var(--sec-button-color);
+    padding: 12px 28px;
+    margin-top: 30px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    transform: translatey(1);
+    transition: all 0.5s ease;
+}
+
+.page-3 .container button:hover {
+    background-color: #8b5a87;
+    transform: translatey(-0.5em);
+}
+
+.page-3 .container button a {
+    font-size: 1rem;
+    color: white;
+
+}

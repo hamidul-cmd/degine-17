@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+
+}
+*::selection {
+    background-color: #000000;
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+:root {
+    --fs-h1: 3.5rem;
+    --fs-h1-weight: 500;
+    --fs-h2: 2.5rem;
+    --fs-h3: 1.5rem;
+    --fs-navlinks: 14px;
+    --fs-navlinks-weight: 400;
+    --fs-logo: 22px;
+    --fs-logo-weight: 500;
+    --fs-button:1.2rem;
+    --fs-sec-button: 1rem;
+    --fs-p:1.1rem;
+
+--header-color: #000000;
+--hero-button-color: #ff6f61;
+--sec-button-color: #5a2c68;
+--third-button-color: #d81b60;
+
+--h2-color: #5a2c68;
+--sec-h2-color: #5c3e6c;
+--third-h2-color: #d81b60;
+--h3-color: #d81b60;
+--sec-h3-color: #5c3e6c;
+--p-color: #555;
+--sec-p-color: #777;
+--footer-color: #333;
+
+--page2-backgroundcolor: linear-gradient(160deg,#f0e3ff,#d8e6f3);
+--page3-backgroundcolor: linear-gradient(135deg,#f9f1f7,#f0e5ff);
+--page4-backgroundcolor: linear-gradient(120deg,#e0f7fa,#fce4ec);
+
+}
+
+.no-scroll {
+    overflow-y: hidden;
+}
+
+@keyframes fedein {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+@keyframes fedein2 {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}

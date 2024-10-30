@@ -1,0 +1,244 @@
+.floral {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #f9e4d8, #e5d7ff);
+}
+
+.floral .container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.floral h2 {
+    font-size: var(--fs-h2);
+    font-weight: 600;
+    color: #5b2a2a;
+    margin-bottom: 15px;
+}
+
+.floral .discription {
+    font-size: 1.2rem;
+    color: #4e3e3e;
+    margin-bottom: 25px;
+}
+
+.floral .boxs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.floral .box {
+    padding: 20px;
+    border-left: 5px solid #6b5d5d;
+}
+
+.floral h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #6f4f4f;
+    margin-bottom: 10px;
+}
+
+.floral .box p {
+    font-size: 1rem;
+    color: #3c3c3c;
+}
+
+.floral a {
+    display: inline-block;
+    font-size: 1.1rem;
+    background-color: #7b4f4f;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 5px;
+    margin-top: 30px;
+    transform: scale(1);
+    transition: all 0.5s ease;
+}
+
+.floral a:hover {
+    transform: scale(1.1);
+    background-color: #633e3e;
+}
+.floral .right {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.floral .right img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transform: scale(1);
+    transition: all 0.5s ease;
+}
+
+.floral .right img:hover {
+    transform: scale(1.1);
+}
+/* page2 degine stert  */
+.join {
+    padding: 60px 20px;
+    background: linear-gradient(135deg,#ffefba,#ffffff);
+}
+.join .container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.join h2{
+    font-size: var(--fs-h2);
+    font-weight: 600;
+    color: #4b2d2d;
+    margin-bottom: 20px;
+    animation: fedein2 1s ease;
+}
+.join p {
+    font-size: 1.2rem;
+    color: #4e3e3e;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+.join .boxs {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+.join .box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px dashed #e2b200;
+    transition: all 0.5s ease;
+    transform: translatey(1);
+}
+.join .box:hover {
+    transform: translatey(-7px);
+}
+.join .box h3 {
+    font-size: 1.5rem;
+    color: #8b6b6b;
+    margin-bottom: 10px;
+}
+.join .box p {
+    font-size: 0.9rem;
+    color: #777;
+}
+.join a {
+    font-size: 1.2rem;
+    color: white;
+    background-color: #c25e3e;
+    padding: 12px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 30px;
+    transform: scale(1);
+    transition: all 0.5s ease;
+}
+.join a:hover {
+    transform: scale(1.1);
+    background-color: #9b3c27;
+}
+.join .right {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transform: scale(1);
+    transition: all 0.5s ease;
+}
+.join .right:hover {
+    transform: scale(1.1);
+}
+
+.join .right img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-sizing: border-box;
+
+}
+/* page-3 degine stert  */
+
+.collection {
+    padding: 60px 20px;
+    background: linear-gradient(180deg, #f9f3d1, #fff);
+}
+.collection .container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 60px;
+}
+.collection h2 {
+    font-size: var(--fs-h2);
+    font-weight: 500;
+    color: #6d5b9a;
+    margin-bottom: 20px;
+    animation: fedein2 1s ease;
+}
+.collection p {
+    font-size: 1.2rem;
+    color: #3c3c3c;
+}
+.collection .images {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.collection .images img {
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10px;
+    transform: scale(1);
+    transition: all 0.5s ease;
+}
+.collection .images img:hover {
+    transform: scale(1.1);
+}
+.collection h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #6d5b9a;
+    margin-bottom: 10px;
+}
+.collection a {
+    font-size: 1.1rem;
+    background-color: #4b8e8d;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 30px;
+    transform: scale(1);
+    transition: all 0.5s ease
+}
+.collection a:hover {
+    background-color: #357a79;
+    transform: scale(1.1);
+}
+
+
+
+
+@media (max-width:800px) {
+    .floral .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .join .container {
+        flex-direction: column;
+        text-align: center;
+    }
+}

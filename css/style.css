@@ -1,0 +1,146 @@
+.care {
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #f0e4ff, #e3f2fd);
+}
+
+.care .container {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.care h2 {
+    font-size: var(--fs-h2);
+    font-weight: 500;
+    margin-block: 20px;
+}
+
+.care p {
+    font-size: var(--fs-p);
+    margin-bottom: 45px;
+}
+
+.care .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.care .grid .box {
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transform: scale(1);
+    transition: 0.5s ease
+}
+
+.care .grid .box:hover {
+    transform: scale(1.1);
+}
+
+.care .grid .box h3 {
+    font-size: var(--fs-h3);
+    font-weight: 600;
+    color: #3e2723;
+    margin-block: 15px;
+}
+
+.care .grid .box p {
+    font-size: 1rem;
+    color: #666;
+    font-weight: 400;
+}
+
+.care a {
+    display: inline-block;
+    margin-top: 30px;
+    color: white;
+    background-color: #8e24aa;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 1rem;
+    transition: all 0.5s ease;
+}
+
+.care a:hover {
+    background-color: #6a1b9a;
+}
+
+.valley {
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #fce4ec, #f8bbd0);
+}
+
+.valley .container {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.valley h2 {
+    font-size: var(--fs-h2);
+    color: #880e4f;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.valley .grid {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.valley .grid img {
+    width: 80%;
+    max-width: 400px;
+    border-radius: 15px;
+    transform: scale(1);
+    transition: 0.5s ease
+}
+
+.valley .grid img:hover {
+    transform: scale(1.1);
+}
+
+.valley .grid .box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+.valley .grid .box h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #c2185b;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.valley .grid .box p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.valley .grid .box a {
+    margin-top: 30px;
+    color: white;
+    background-color: #5c3e6c;
+    border-radius: 30px;
+    padding: 12px 28px;
+    display: inline-block;
+    transition: all 0.5s ease;
+    transform: translatey(1);
+}
+
+.valley .grid .box a:hover {
+    background-color: #8b5a87;
+    transform: translatey(-3px);
+}

@@ -1,0 +1,76 @@
+.page-4 {
+    background: var(--page4-backgroundcolor);
+    padding: 40px 20px;
+}
+
+.page-4 .container {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.page-4 .container h2 {
+    font-size: var(--fs-h2);
+    font-weight: 600;
+    color: var(--third-h2-color);
+    margin-bottom: 16px;
+    animation: fedein 0.6s;
+}
+
+.page-4 .container p {
+    font-size: var(--fs-p);
+    color: var(--p-color);
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.page-4 .container .boxs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.page-4 .container .boxs .box {
+    width: 250px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: 2px dashed #e2b200;
+    transition: all 0.5s ease;
+}
+.page-4 .container .boxs .box:hover {
+    transform: translateY(-20px);
+}
+.page-4 .container .boxs .box h3 {
+    font-size: var(--fs-h3);
+    color: var(--h3-color);
+    margin-block: 10px;
+    font-weight: 600;
+
+}
+
+.page-4 .container .boxs .box p {
+    margin-block: 10px;
+    font-size: 0.9rem;
+    color: var(--sec-p-color);
+
+}
+
+.page-4 .container button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: var(--third-button-color);
+    transition: all ease 0.5s;
+}
+.page-4 .container button:hover {
+    background-color: #c2185b;
+    transform: translateY(-5px);
+}
+.page-4 .container button a {
+    font-size: var(--fs-sec-button);
+    color: white;
+}

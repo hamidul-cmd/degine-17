@@ -1,0 +1,98 @@
+.page-2 {
+    padding: 40px 20px;
+    background: var(--page2-backgroundcolor);
+
+}
+
+.page2-container {
+    display: flex;
+    gap: 50px;
+    max-width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.page2-container .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    max-width: 580px;
+    min-height: 535px;
+}
+
+.page2-container .left h2 {
+    font-size: var(--fs-h2);
+    font-weight: 500;
+    text-align: center;
+    color: var(--h2-color);
+    animation: fedein 0.5s;
+
+}
+.page2-container .left  p {
+    font-size: var(--fs-p);
+    color: var(--p-color);
+    line-height: 1.5;
+    padding-block: 10px;
+    animation: fedein 0.5s;
+}
+.page2-container .left .nervel {
+    background-color: white;
+    padding: 30px 25px;
+    border-left: 5px solid #5a2c68;
+    max-width: 540px;
+}
+.page2-container .left .nervel i {
+    font-size: var(--fs-p);
+    text-align: left;
+
+}
+.page2-container .left .nervel p {
+    text-align: right;
+    font-size: 0.9rem;
+    color: #888;
+}
+.page2-container .left button {
+    margin-top: 20px;
+    background-color: var(--sec-button-color);
+    border: none;
+    border-radius: 30px;
+    padding: 12px 28px;
+    cursor: pointer;
+    transition: all 0.3s;
+    transform: translatey(1);
+    transition: transform 0.5s ease;
+}
+.page2-container .left button:hover {
+    background-color: #7b4b9d;
+    transform: translatey(-0.5em);
+}
+.page2-container .left button a {
+    font-size: 1rem;
+    color: white;
+}
+.page2-container .right{
+    overflow: hidden;
+    border-radius: 15px;
+    border: 5px solid #c79b30;
+}
+.page2-container .right img {
+    transform: scale(1);
+    transition: 0.5s ease;
+}
+
+.page2-container .right img:hover {
+    transform: scale(1.1);
+}
+
+
+
+@media (max-width:800px) {
+    .page2-container {
+        flex-direction: column;
+    }
+    .page2-container .left  p {
+        text-align: center;
+    }
+}

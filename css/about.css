@@ -1,0 +1,237 @@
+.about {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+}
+
+.about_container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.about_container .__header {
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.about_container .__header h2 {
+    font-size: var(--fs-h2);
+    color: #ff6f61;
+    position: relative;
+    margin-block: 0.83em;
+}
+
+.about_container .__header h2::after {
+    content: '';
+    height: 4px;
+    width: 50px;
+    background-color: #ff4c3b;
+    display: block;
+    margin: 10px auto;
+}
+
+.about_container .__header h4 {
+    font-size: 1.2rem;
+    color: #666;
+
+}
+
+.about_container .__content {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+
+.about_container.__content .__img {
+    display: flex;
+    flex: 1;
+    min-width: 200px;
+    object-fit: cover;
+    justify-content: center;
+
+}
+
+.about_container .__content .__img img {
+    min-width: 200;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    transform: scale(1);
+    transition: 0.5s ease
+}
+
+.about_container .__content .__img img:hover {
+    transform: scale(1.1);
+}
+
+.about_container .__content .__discription {
+    animation: fedein2 1s ease;
+}
+
+.about_container .__content .__discription h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+
+}
+
+.about_container .__content .__discription p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.customer {
+    background-color: #f3f4f6;
+    padding: 60px 20px;
+}
+
+.customer .container {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.customer .container h2 {
+    font-size: var(--fs-h2);
+    color: #ff6f61;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.customer .container .boxs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.customer .container .boxs .box {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transform: translatey(1);
+    transition: transform 0.5s ease;
+}
+.customer .container .boxs .box:hover {
+    transform: translatey(-0.5em);
+}
+
+.customer .container .boxs .box p {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: rgb(158, 156, 156);
+    margin-block: 5px;
+}
+
+.customer .container .boxs .box h3 {
+    font-size: var(--fs-h3);
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.customer .container .boxs .box h4 {
+    color: #888;
+    font-size: 19px;
+}
+
+.discover {
+    background-color: white;
+    padding: 60px 20px;
+}
+.discover .container {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+.discover .container .image {
+    width: 90%;
+    max-width: 500px;
+    transform: scale(1);
+    transition:all 0.5s ease;
+}
+.discover .container .image:hover {
+    transform: scale(1.1);
+}
+.discover .container .image img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+
+}
+.discover .container .discribtion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9; 
+}
+.discover .container .discribtion h2 {
+    font-size: var(--fs-h2);
+    color: #6d5b9a;
+    margin-block: 30px 20px;
+    font-weight: 500;
+    animation: fedein 0.8s;
+}
+.discover .container .discribtion p {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 20px;
+    padding-inline: 100px;
+    text-align: center;
+}
+.discover .container .discribtion ul {
+    margin-block: 20px;
+    list-style: none;
+    padding: 0;
+}
+.discover .container .discribtion ul li {
+    margin-bottom: 10px;
+}
+.discover .container .discribtion a {
+    background-color: #4b8e8d;
+    font-size: 1.1rem;
+    padding: 12px 30px;
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transform: scale(0.9);
+    transition:all 0.5s ease;
+}
+.discover .container .discribtion a:hover {
+    background-color: #357a79;
+    transform: scale(1);
+}
+
+
+@media (max-width:800px) {
+    .about_container .__content {
+        flex-direction: column;
+    }
+
+    .about_container .__content .__discription h3 {
+        text-align: center;
+    }
+    .about_container .__content .__discription p {
+        text-align: center;
+    }
+    .about_container .__content .__discription p {
+        text-align: center;
+    }
+    .customer .container .boxs {
+        flex-direction: column;
+    }
+    .discover .container .discribtion p {
+        padding-inline: 12px;
+    }
+
+}
